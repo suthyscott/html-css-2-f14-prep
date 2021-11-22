@@ -1,0 +1,87 @@
+h1 {
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: black solid 1px;
+}
+
+
+#first-box {
+   background-color: purple;
+   position: relative;
+   left: 150px;
+   top: 100px
+}
+
+#second-box {
+    background-color: green;
+    position: absolute;
+    left: 500px;
+}
+
+#third-box {
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+}
+
+#fourth-box {
+    background-color: red;
+    position: sticky;
+    top: 100px;
+}
+
+#main-section {
+    margin: 30px;
+}
+
+#first-section {
+    background-color: sandybrown;
+}
+
+.sandbox {
+    display: inline-block;
+}
+
+span {
+    display: block;
+}
+
+#checkerboard {
+    margin: 50px;
+    border: solid red 1px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.square {
+    border: solid black 1px;
+    height: 100px;
+    width: 100px;
+}
+
+#one-div {
+    height: 300px;
+    width: 300px;
+    border: blue dashed 10px;
+    padding: 50px;
+    display: inline-block;
+}
+
+#another-div {
+    height: 300px;
+    width: 300px;
+    border: green dotted 10px;
+    padding: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+}
